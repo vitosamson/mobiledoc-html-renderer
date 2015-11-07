@@ -2,7 +2,7 @@
 
 const { test } = QUnit;
 
-import Renderer from 'mobiledoc-html-renderer';
+const Renderer = window.MobiledocHtmlRenderer;
 const MOBILEDOC_VERSION = '0.2.0';
 
 let renderer;
